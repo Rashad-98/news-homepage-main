@@ -1,4 +1,5 @@
 import MainTopic from "../main-topic/main-topic.component";
+import SideList from "../side-list/side-list.component";
 
 const BodyContainer = () => {
     return (
@@ -8,7 +9,7 @@ const BodyContainer = () => {
                     <MainTopic />
                 </div>
                 <div className="col-lg-4">
-                    New
+                    <SideList />
                 </div>
                 <div className="row">
                     <div className="col-lg">
