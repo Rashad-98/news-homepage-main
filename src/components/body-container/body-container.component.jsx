@@ -1,11 +1,11 @@
-
+import MainTopic from "../main-topic/main-topic.component";
 
 const BodyContainer = () => {
     return (
         <div className="container-fluid mt-5 pt-5">
             <div className="row">
                 <div className="col-lg-8 ">
-                    The Bright Future of Web 3.0
+                    <MainTopic />
                 </div>
                 <div className="col-lg-4">
                     New
