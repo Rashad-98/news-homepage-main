@@ -11,7 +11,7 @@ p {
     text-align: left;
 }
 
-button {
+#rdButton {
     width: 40% !important;
     margin: 0.75rem;
     color: white;

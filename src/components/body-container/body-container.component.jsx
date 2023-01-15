@@ -3,7 +3,7 @@ import SideList from "../side-list/side-list.component";
 
 const BodyContainer = () => {
     return (
-        <div className="container-fluid mt-5 pt-5">
+        <div className="container-fluid mt-5 pt-5 px-0">
             <div className="row">
                 <div className="col-lg-8 ">
                     <MainTopic />
