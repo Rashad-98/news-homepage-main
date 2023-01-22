@@ -6,7 +6,7 @@ function Directory({content}) {
             <div className="container-fluid directory-item">
                 <div className="row">
                     <div className="col-4">
-                        <img src={content.image} alt={content.alt} />
+                            <img src={content.image} alt={content.alt} />
                     </div>
                     <div className="col-8 container-fluid">
                         <div className="row">

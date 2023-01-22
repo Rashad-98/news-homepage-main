@@ -2,10 +2,10 @@ import './side-list.styles.css';
 
 const SideListItem = ({item}) => {
     return (
-        <div>
-            <h2 class='item-title'>
+        <div className='item'>
+            <h4 class='item-title'>
                 {item.title}
-            </h2>
+            </h4>
             <p>
                 {item.text}
             </p>

@@ -36,12 +36,14 @@ const BodyContainer = () => {
                 <div className="col-lg-4">
                     <SideList />
                 </div>
-                <div className="row">
+                <div className="row px-0">
+                    <div className="col-lg pe-0">
                         <Directory content={directoryContents[0]} />
-                    <div className="col-lg">
+                    </div>
+                    <div className="col-lg pe-0">
                         <Directory content={directoryContents[1]} />
                     </div>
-                    <div className="col-lg">
+                    <div className="col-lg pe-0">
                         <Directory content={directoryContents[2]} />
                     </div>
                 </div>
