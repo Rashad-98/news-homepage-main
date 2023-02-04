@@ -19,7 +19,7 @@ class Header extends Component {
                   <div className="offcanvas-body">
                     <ul className="navbar-nav justify-content-end flex-grow-1 align-items-start">
                       <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        <a className="nav-link " aria-current="page" href="#">Home</a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link" href="#">New</a>

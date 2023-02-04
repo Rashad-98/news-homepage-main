@@ -13,8 +13,20 @@ p {
 
 #rdButton {
     width: 40% !important;
+    height: 3rem;
     margin: 0.75rem;
     color: white;
-    background-color: black;
+    background-color: rgb(226, 154, 37);
+    border-color: rgb(226, 154, 37);
+    border-style: none;
     
+}
+
+#rdButton:hover {
+    color: white;
+    background-color: black;
+}
+
+.main-topic-title {
+    font-weight: 900;
 }

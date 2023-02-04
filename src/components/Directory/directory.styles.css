@@ -1,4 +1,25 @@
+.directory-item-title-link {
+    text-decoration: none;
+    color: black;
+}
+
 .directory-item {
     text-align: left;
     
+}
+
+.directory-item-order {
+    padding-left: 0;
+    color: lightgray;
+    font-weight: 600;
+}
+
+.directory-item-title {
+    padding-left: 0;
+    font-weight: 800;
+}
+
+.directory-item-content {
+    padding-left: 0;
+    color: rgb(120, 120, 120);
 }

@@ -13,7 +13,7 @@ const MainTopic = () => {
                 </div>
             </div>
             <div className="row">
-                <h1 className="col-lg-6 px-0 gy-4">
+                <h1 className="col-lg-6 px-0 gy-4 main-topic-title">
                     The Bright Future of Web 3.0?
                 </h1>
                 <div className="col-lg-6 px-0 px-lg-2 gy-4">

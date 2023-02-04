@@ -10,13 +10,21 @@ function Directory({content}) {
                     </div>
                     <div className="col-8 container-fluid">
                         <div className="row">
-                            {content.order}
+                            <h4 className='directory-item-order'>
+                                {content.order}
+                            </h4>
                         </div>
                         <div className="row">
-                            {content.title}
+                            <h6 className='directory-item-title'>
+                                <a className='directory-item-title-link' href=''>
+                                    {content.title}
+                                </a>
+                            </h6>
                         </div>
                         <div className="row">
-                            {content.text}
+                            <p className='directory-item-content'>
+                                {content.text}
+                            </p>
                         </div>
                     </div>
                 </div>

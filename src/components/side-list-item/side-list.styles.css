@@ -1,3 +1,8 @@
+.item-title-link {
+    text-decoration: none;
+    color: white;
+}
+
 .item-title {
     display: flex;
     justify-content: left;

@@ -3,3 +3,7 @@
   margin: 50px;
   display: grid;
 }
+
+a:hover {
+  color: rgb(226, 154, 37);
+}
